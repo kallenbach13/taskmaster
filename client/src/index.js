@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const API = {get, post, patch, destroy}
 
     //constants
-    const tasksUrl = "http://localhost:3000/tasks/"
+    const tasksUrl = "https://taskmaster-todos.herokuapp.com/tasks"
 
     const taskList = document.querySelector("#task-list")
     const completedList = document.querySelector("#completed-list")
